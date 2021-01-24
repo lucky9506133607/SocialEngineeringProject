@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+html
+{
+	scroll-behavior: smooth;
+	}
+body
+{
+	font-family: sans-serif;
+	}
+	section
+	{
+	width: 100%;
+	height: 100vh;
+		}
+.banner .btn_down {
+
+
+}
+
+		section.banner 
+		{
+		
+			background-size: cover;
+			text-align: center;			
+			}
+			a.btn_down
+			{
+	text-decoration: none;
+	color: #F93034;
+	position: absolute;
+	bottom: 5px;
+	font-size: 40px;
+	border: 2px solid #A43B3D;
+	border-radius: 60px;
+	height: 40px;
+	width: 40px;
+	line-height: 60px;
+				}
+#content {
+	margin-top: 500px;
+}
+
+				a.btn_down:hover
+				{
+					background: #133B69;
+					}
+#division #content {
+
+	padding-top: 250px;
+}

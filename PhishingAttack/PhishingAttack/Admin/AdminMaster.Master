@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="PhishingAttack.Admin.AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+      
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">  
+    </asp:ScriptManager>
+    <asp:UpdatePanel ID="AdminUpdatePanel" runat="server">
+    <ContentTemplate>   
+        <table class="style1" align="center" style="width:900px">
+            <tr align="center" style="border-bottom-style:ridge; border-width:medium; width:900px;border-color:#9933FF">
+                <td class="style1">
+               <asp:LinkButton ID="lblLogo" runat="server" Text="Phishing Attack" Font-Names="Eras Demi ITC" 
+                    Font-Size="20pt" ForeColor="#6600CC"></asp:LinkButton>
+                    <br />
+                    <br />
+
+                 </td>
+            </tr>
+            <tr align="center" style="border:thin ridge #9900FF; width: 900px;">
+                <td>
+                <a href="AddCategory.aspx"> Add Category </a>
+                &nbsp;
+                <a href="AddLink.aspx"> Add Link </a>
+                &nbsp;
+                <a href="AllCategory.aspx"> All Category </a>
+                </td>
+            </tr>
+             </table>
+            </ContentTemplate>
+            </asp:UpdatePanel>
+            <table  class="style1" align="center" style="width:900px">
+            <tr>
+                <td>
+                    <asp:Panel ID="pnlCategories" runat="server">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                <p>
+                                    &nbsp;</p>
+                            </asp:ContentPlaceHolder>
+                        </asp:Panel>
+                </td>
+            </tr>
+            <tr>
+        <td align="center" class="style1">
+        &nbsp;
+        
+        &copy;  Luckyhtml.weebly.com
+            </td>
+   </tr>
+   </table>
+
+     
+      
+      
+
+    </form>
+</body>
+</html>

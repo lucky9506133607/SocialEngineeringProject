@@ -1,0 +1,4 @@
+C:\Users\Toshiba\Documents\Visual Studio 2010\Projects\PhishingAttack\PhishingAttack\bin\PhishingAttack.dll
+C:\Users\Toshiba\Documents\Visual Studio 2010\Projects\PhishingAttack\PhishingAttack\bin\PhishingAttack.pdb
+C:\Users\Toshiba\Documents\Visual Studio 2010\Projects\PhishingAttack\PhishingAttack\obj\Debug\PhishingAttack.dll
+C:\Users\Toshiba\Documents\Visual Studio 2010\Projects\PhishingAttack\PhishingAttack\obj\Debug\PhishingAttack.pdb
